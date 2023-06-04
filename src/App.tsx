@@ -30,7 +30,7 @@ const App = () => {
           placeholder='Entrez un message' 
           id='inputMessage'
           ref={inputMessage} />
-        <input type="submit" value="Envoyer"  />
+        <input type="submit" value="Envoyerr"  />
       </form>
       <h2>Liste des messages</h2>
       <div>{messData?.map((mess) => (
